@@ -5,7 +5,7 @@ deploy:
     secret_access_key: $AWS_SECRET_KEY
     bucket: kl-personal-site
     region: us-east-1
-    # skip_cleanup: true
+    skip_cleanup: true
     local-dir: output
     acl: public_read
     detect_encoding: true
