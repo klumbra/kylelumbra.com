@@ -6,5 +6,5 @@ deploy:
     bucket: kl-personal-site
     region: us-east-1
     skip_cleanup: true
-    acl: public_read
+    #acl: public_read
     detect_encoding: true
